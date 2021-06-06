@@ -1,13 +1,14 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 2px;
 }
 
 body {
     /* background: linear-gradient(lightGray, gray, darkGray); */
-    background-color: black;
-    color: whitesmoke;
+    background: #181818;
+    color: #fefefe;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,6 +20,10 @@ body {
 }
 
 img {
-    filter: grayscale(60%);
-    
+    /* filter: grayscale(60%); */
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: left;
 }
