@@ -4,5 +4,5 @@ const homeBtn = document.getElementById('home-btn');
 
 homeBtn.addEventListener('click', function () {
     event.preventDefault();
-    window.location.href = "/index.html"
+    window.location.href = "./index.html"
 });
