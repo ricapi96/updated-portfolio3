@@ -23,7 +23,7 @@ h2 {
     text-align: left;
 }
 
-button {
+button, a.btn.btn-secondary {
     background-color: #181818;
     color: #fefefe;
     border-radius: 25%;
