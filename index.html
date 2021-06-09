@@ -1,66 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Erica's Portfolio</title>
-</head>
-<body>
-<h2>ER</h2>
-<!-- <h1>Erica Roquemore</h1> -->
+  </head>
+  <body>
+    <h2>ER</h2>
+    <!-- <h1>Erica Roquemore</h1> -->
 
-<!-- Navbar -->
-<ul class="nav justify-content-end">
-    <li class="nav-item">
+    <!-- Navbar -->
+    <ul class="nav justify-content-end">
+      <!-- <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="./work.html">Work</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+    </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="#about-me">About</a>
       </li>
-    
-  </ul>
- 
-<!--Profile Image  -->
-<img src="./images/profile.jpg" class="img.thumbnail" style="width: 400px; height: 400px;"><br>
+      <li class="nav-item">
+        <a class="nav-link" href="./work.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-me">Contact</a>
+      </li>
+    </ul>
 
+    <!--Profile Image  -->
+    <img
+      src="./images/profile.jpg"
+      class="img.thumbnail"
+      style="width: 400px; height: 400px"
+    /><br />
 
-
-    <h3>Hey! I'm Erica Roquemore, and I'm a Full Stack Developer!</h3><hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie ac feugiat sed lectus. Diam maecenas sed enim ut sem. Varius vel pharetra vel turpis nunc eget lorem. Nam libero justo laoreet sit amet cursus sit.</p><br>
+    <h3>Hey! I'm Erica Roquemore, and I'm a Full Stack Developer!</h3>
+    <hr />
+    <br />
+    <section id="about-me" class="about">
+      <h3><u>About Me</u></h3>
+      <p>
+        I am a Georgia native that grew up in Metro Atlanta. I was in the
+        hospitality and restaurant fields for over 15 years. I love to travel,
+        play video games, and meet new people. After the pandemic hit, I was
+        hospitalized and I realized that a career change was in my best
+        interest. I changed course and went back to school to get my B.S. in IT,
+        and I enrolled in a coding boot camp at Georgia Tech. I've learned so
+        much this year, and can't wait to set out on my new journey as a Web
+        Developer!
+      </p>
+      <hr />
+     
+    </section>
 
     <!-- Vertical Navbar -->
     <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="https://github.com/ricapi96">Github</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/carerica1">Twitter</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.linkedin.com/in/ericaroquemore2684b563">LinkedIn</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://docs.google.com/document/d/12NqnjjIHpPBu_HBQ5PLZq9I1TCeNnvAzrdgW9XFhliU/edit?usp=sharing">Resume</a>
-          </li>
-        
-      </ul>
-    
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          aria-current="page"
+          href="https://github.com/ricapi96"
+          >Github</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://twitter.com/carerica1">Twitter</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://www.linkedin.com/in/ericaroquemore2684b563"
+          >LinkedIn</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="https://docs.google.com/document/d/12NqnjjIHpPBu_HBQ5PLZq9I1TCeNnvAzrdgW9XFhliU/edit?usp=sharing"
+          >Resume</a
+        >
+      </li>
+    </ul>
+    <hr />
+    <section id="contact-me" class="Contact Me">
+      <h3><u>Contact Me</u></h3>
+      <br />
+      <h5>email: enroquemore@gmail.com</h5>
+      <br />
+      <h5>phone: 404-798-4779</h5>
+    </section>
 
-
-
-
-
-
-
-    <script src="script.js"></script>   
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
