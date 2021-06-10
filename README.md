@@ -4,11 +4,13 @@
 
 ## Description
 
-This is Erica Roquemore's new portfolio. Check out the links to my work.
+This is my new portfolio. Check out the links to my work.
 
-## Screenshot
 
-![portfolio](./images/screenshot.png)
+## Deployed Portfolio
+
+https://ricapi96.github.io/updated-portfolio3/
+
 
 ## License
 
@@ -24,3 +26,6 @@ https://opensource.org/licenses/MIT
 ## Questions
 
 * If you have any questions or concerns, please contact me at https://github.com/ricapi96, or email me at enroquemore@gmail.com.
+
+
+                                        💙 Made by Erica Roquemore 💙
