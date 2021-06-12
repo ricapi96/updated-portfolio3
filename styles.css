@@ -27,6 +27,6 @@ img {
 h2 {
   position: absolute;
   /* text-align: left; */
-  right: 2px;
+  left: 0px;
 }
 
