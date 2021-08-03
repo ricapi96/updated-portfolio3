@@ -25,6 +25,8 @@ img {
 }
 
 h2 {
-  text-align: left;
+  position: absolute;
+  /* text-align: left; */
+  left: 0px;
 }
 
