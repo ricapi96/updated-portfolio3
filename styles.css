@@ -24,6 +24,11 @@ img {
   border-radius: 50%;
 }
 
+a.nav-link {
+  color:#b3a577;
+  font-size: 25px !important;
+}
+
 h2 {
   position: absolute;
   /* text-align: left; */
