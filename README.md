@@ -9,7 +9,7 @@ This is my new portfolio. Check out the links to my work.
 
 ## Deployed Portfolio
 
-https://ricapi96.github.io/updated-portfolio3/
+https://www.ericaroquemore.com/
 
 
 ## License
