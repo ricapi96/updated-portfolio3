@@ -41,6 +41,7 @@ h2 {
   }
 }
 
+
 /*------/ Socials /------*/
 .socials {
   padding: 1.5rem 0;
@@ -51,8 +52,8 @@ h2 {
 }
 
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
