@@ -23,6 +23,17 @@ h2 {
   text-align: left;
 }
 
+.row {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
 .card {
   display: inline-block;
 }
