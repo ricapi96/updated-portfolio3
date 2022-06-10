@@ -35,7 +35,7 @@ h2 {
   position: absolute;
   /* text-align: left; */
   left: 0px;
-  font-family: 'Waiting for the Sunrise', monospace, cursive;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* Typewriter Text */
@@ -44,7 +44,7 @@ body{
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  font-family: 'Waiting for the Sunrise', monospace, cursive;  
+  font-family: 'Roboto Mono', monospace;  
   background-color: rgb(25,25,25);  
 }
 .line-1{
