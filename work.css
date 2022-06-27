@@ -1,6 +1,9 @@
-* {
+html {
   box-sizing: border-box;
-  padding: 5px;
+}
+
+*, *::before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -27,6 +30,7 @@ h2 {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 a {
