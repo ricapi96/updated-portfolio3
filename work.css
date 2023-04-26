@@ -7,10 +7,12 @@ html {
 }
 
 body {
-  background-color: #090947;
-  background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%);
+  background: linear-gradient(315deg, #090947 0%, #5a585a 74%) #090947;
   color: #fefefe;
   font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: normal;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,6 +26,7 @@ body {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 96%;
   margin: 2rem auto;
 }
@@ -36,7 +39,6 @@ h2 {
 .row {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;
   justify-content: space-between;
 }
 
@@ -45,38 +47,80 @@ a {
   color: #fefefe;
 }
 
-.card {
-  /* display: inline-block; */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fefefe;
+  padding: 10px;
+  width: 25%;
+  margin: 20px;
   border-style: solid;
   border-width: 1px;
+  flex-basis: calc(33.33% - 40px);
+  min-width: 200px;
+} */
+
+.card {
+  flex: 0 0 calc(50% - 30px);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fefefe;
   padding: 10px;
-  float: left;
-  width: 25%;
+  margin: 20px;
+  border-style: solid;
+  border-width: 1px;
+  flex-basis: calc(33.33% - 40px);
+  min-width: 200px;
+
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
 }
 
 button,
 a.btn.btn-secondary {
   background-color: #181818;
   color: #fefefe;
-  border-radius: 25%;
-  box-shadow: #fefefe;
-  
-}
-
-button:hover {
-  box-shadow: 0 12px 16px 0 gray;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover,
+a.btn.btn-secondary:hover {
+  background-color: #333333;
+}
 
 @media screen and (max-width: 992px) {
- .card {
-  width: 50%;
- }  
+  .card {
+    flex-basis: calc(50% - 40px); 
+  }
 }
 
 @media screen and (max-width: 768px) {
   .card {
-    width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 calc(100% - 30px); 
   }
 }
