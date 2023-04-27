@@ -39,32 +39,32 @@ main {
   margin: 2rem auto;
 }
 
-h2 {
+/* header {
   position: absolute;
-  left: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+} */
+
+h2 {
   font-family: 'Roboto Mono', monospace;
 }
 
 /* Typewriter Text */
 
-body{
+body {
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
   font-family: 'Roboto Mono', monospace;  
   background-color: rgb(25,25,25);  
 }
-.line-1{
-    position: relative;
-    top: 2%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+.line-1 {
+  position: absolute;
+  /* top: calc(50% + 40px); */
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /* Animation */
@@ -106,4 +106,15 @@ body{
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 50ms ease;
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    text-align: center;
+  }
+  
+  .line-1 {
+    width: 100%;
+    margin: 0;
+  }
 }
